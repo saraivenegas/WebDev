@@ -1,0 +1,137 @@
+a {
+	text-decoration: none;
+  }
+a:link {
+	color: gray;
+  }
+  
+a:visited {
+	color: green;
+  }
+  
+a:hover {
+	color: rebeccapurple;
+  }
+  
+a:active {
+	color: teal;
+  }
+
+.container {
+    position: relative;
+    width: 100%;
+}
+
+.right {
+    position: absolute;
+    right: 0px;
+    width: 300px;
+    background-color: #b0e0e6;
+}
+.center{
+  padding: 70px 0;
+  border: 3px solid green;
+}
+.center p {
+  line-height: 1.5;
+  display: inline-block;
+  vertical-align: middle;
+}
+h2
+{
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 0px;
+  margin-right: 50px;
+  margin-left: 50px;
+}
+body
+{
+    font-family: Maax-Regular, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    box-sizing: border-box;
+    color: #222;
+    margin: 0;
+    display: block;
+    font-style: normal;
+    font-stretch: 100%;
+    margin: 0px 0px 0px 0px;
+    -ms-text-size-adjust: 100%;
+    padding: 30px;
+}
+
+p {
+    display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    font-size: 105%;
+    color: dimgray;
+    text-align: center;
+    margin-right: 50px;
+    margin-left: 50px
+}
+
+h1{
+    text-align: center;  
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+footer
+{
+  text-align: center;
+}
+nav {
+  text-align: center;
+  padding-bottom: 20px;
+  
+}
+nav li {
+  display: block;
+  float: left;
+}
+h3
+{
+  text-align: center;  
+  margin-top: 30px;
+  margin-bottom: 0px;
+  margin-right: 50px;
+  margin-left: 50px;
+}
+.tablet {
+	display: block;
+	margin-top: -3em;
+	margin-bottom: -1em;
+}
+.items	{
+	display: block;
+	list-style-position: inside;
+}
+.desktop 
+{
+	display: inline;
+}
+td,th
+{
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+table 
+{
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.floating-box {
+  display: inline-block;
+  width: 40%;
+  height: 300px;
+  margin: 20px;
+}
